@@ -1,0 +1,69 @@
+.App {
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin-bottom: 0;
+}
+li {
+  list-style: none;
+}
+
+.item {
+  background-color: aliceblue;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.dnd {
+  width: 400px;
+  padding: 20px;
+  background-color: rgb(244, 208, 165);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.description {
+  padding: 20px;
+  margin: 30px auto;
+}
+
+.listPage {
+  background-color: rgb(244, 208, 165);
+  padding: 20px;
+  width: 600px;
+  margin: 30px auto;
+}
+
+.droppable {
+  width: 250px;
+  min-height: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.draggable {
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.collectionElements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid white;
+  width: 60%;
+  margin: 1px;
+}
